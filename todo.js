@@ -44,10 +44,13 @@ const updateList = function(){
     // clear out the div
     listContainer.innerHTML = "";
     // loop through all items in listArray
-    for (i=0;i<listArray.length;i++){
+    //for (i=0;i<listArray.length;i++){
+    for (item of listArray){
         // append HTML to div.listContanier
         let listItem = `
-        <div class="listItem" id="1"><div class="listText">This is a to-do item</div><div class="deleteBtn">X</div></div>
+        <div class="listItem" id="1">
+        <div class="listText">${item.text}</div>
+        <div class="deleteBtn">X</div></div>
         `;
         listContainer.innerHTML += listItem;
     }
