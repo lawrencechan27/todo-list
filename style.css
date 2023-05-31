@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:lightgrey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+.container{
+    width:800px;
+}
+
+.listContainer{
+    width:800px;
+    background-color:white;
+}
+
+.listItem{
+    width:800px;
+    box-sizing: border-box;
+    border:1px solid black;
+    background-color:#f2f2f2;
+    display:flex;
+    justify-content: space-between;
+}
+
+.listText{
+    padding:10px;
+    box-sizing: border-box;
+    width:750px;
+    height:50px;
+    background-color:pink;
+}
+
+.deleteBtn{
+    padding:10px;
+    box-sizing: border-box;
+    width:50px;
+    height:50px;
+    text-align:center;
+    background-color:red;
+}
+
+.inputContainer{
+    width:800px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.inputField{
+    width:750px;
+    height:50px;
+    padding:10px;
+    box-sizing: border-box;
+    border:1px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+.submitBtn{
+    padding:10px;
+    box-sizing: border-box;
+    width:50px;
+    height:50px;
+    text-align:center;
+    background-color:greenyellow;
+}
