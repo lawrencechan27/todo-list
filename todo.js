@@ -1,15 +1,3 @@
-// var to hold DOM elements
-//const listItem = `
-//<div class="listItem" id="1"><div class="listText">This is a to-do item</div><div class="deleteBtn">X</div></div>
-//`;
-
-//let listDiv = document.querySelector('.listContainer')
-//listDiv.innerHTML += listItem;
-
-
-// typingArea
-// etc
-
 // define global array that holds list of items
 var listArray = [];
 
